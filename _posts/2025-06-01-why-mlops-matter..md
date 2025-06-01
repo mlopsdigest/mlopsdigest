@@ -70,17 +70,17 @@ This phase involves almost everyone: product teams, analysts, platform engineers
 
 ### **Training Pipelines**
 
-ML pipelines are **not standard ETL processes** - they're purpose-built for ML, integrating domain-specific algorithms and libraries like PyTorch or TensorFlow. Building them requires collaboration across roles: data engineers, scientists, ML engineers, and SREs.
+ML pipelines are **not standard ETL processes**, they're purpose-built for ML, integrating domain-specific algorithms and libraries like PyTorch or TensorFlow. Building them requires collaboration across roles: data engineers, scientists, ML engineers, and SREs.
 
 ### **Integration and Validation**
 
-Models by themselves don't deliver value - they must be integrated into software products to create real impact. This integration requires close coordination between business teams and engineers to ensure the model serves the intended purpose effectively. For example, an e-commerce recommendation model should be embedded directly into the checkout process, tested live in real user scenarios, and continuously monitored for performance.
+Models by themselves don't deliver value, they must be integrated into software products to create real impact. This integration requires close coordination between business teams and engineers to ensure the model serves the intended purpose effectively. For example, an e-commerce recommendation model should be embedded directly into the checkout process, tested live in real user scenarios, and continuously monitored for performance.
 
 > To validate such models safely and effectively, one can use strategies like shadow deployments (running the model in parallel without affecting user experience), incremental rollouts (gradually exposing traffic to the model), or A/B testing (comparing the model's impact against a control group to assess business value).
 
 ### **Monitoring**
 
-Models can fail silently - data drift, unexpected inputs, or broken assumptions can degrade accuracy. MLOps enforces **ongoing monitoring** to detect and address issues early. Teams must define success metrics clearly, run offline and online evaluations, and continuously improve model reliability.
+Models can fail silently, data drift, unexpected inputs, or broken assumptions can degrade accuracy. MLOps enforces **ongoing monitoring** to detect and address issues early. Teams must define success metrics clearly, run offline and online evaluations, and continuously improve model reliability.
 
 <p>
     <img src="/assets/images/2025-06-01-why-mlops-matter/ml_lifecycle.png" width="300px" alt="ML Lifecycle" style="display: block; margin: 0 auto;" />
@@ -88,4 +88,4 @@ Models can fail silently - data drift, unexpected inputs, or broken assumptions 
 
 ## **MLOps is a Competitive Advantage**
 
-MLOps isn't just about technical hygiene - it's a strategic advantage that transforms experimental models into scalable, production-ready systems. Organizations that invest in MLOps benefit from faster deployment cycles, increased model reliability, improved cross-team collaboration, and the ability to iterate, experiment and innovate continuously. As Machine Learning becomes an integral part of modern business, mastering MLOps is essential to unlocking its full potential and staying competitive in a rapidly evolving landscape.
+MLOps isn't just about technical hygiene, it's a strategic advantage that transforms experimental models into scalable, production-ready systems. Organizations that invest in MLOps benefit from faster deployment cycles, increased model reliability, improved cross-team collaboration, and the ability to iterate, experiment and innovate continuously. As Machine Learning becomes an integral part of modern business, mastering MLOps is essential to unlocking its full potential and staying competitive in a rapidly evolving landscape.
