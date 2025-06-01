@@ -3,7 +3,7 @@ layout: home
 ---
 
 <p>
-  <img src="/assets/logo/logo.png" width="300px" alt="MLOps Lifecycle" style="display: block; margin: 0 auto;" />
+  <img src="/assets/banner/banner.png" width="600px" alt="MLOps Lifecycle" style="display: block; margin: 0 auto;" />
 </p>
 
 # Welcome to MLOps Digest
