@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 
 <p>
@@ -26,7 +26,6 @@ Browse by category below, or [subscribe](/subscribe) to get new issues straight 
     </li>
   {% endfor %}
 </ul>
-
 
 <h2>Browse by Category</h2>
 
