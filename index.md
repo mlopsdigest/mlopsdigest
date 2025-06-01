@@ -1,10 +1,9 @@
 ---
 layout: home
-title: MLOps Digest
 ---
 
-<p align="center">
-  <img src="/assets/images/logo/logo.png" alt="MLOps Digest Logo" width="120" style="display: block; margin: 0 auto;" />
+<p>
+  <img src="/assets/logo/logo.png" width="300px" alt="MLOps Lifecycle" style="display: block; margin: 0 auto;" />
 </p>
 
 # Welcome to MLOps Digest
