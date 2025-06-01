@@ -13,7 +13,7 @@ One interesting pattern about Machine Learning, in general, is how it is tied wi
 
 Given this, many cloud platforms built their own Machine Learning Platforms for ML operationalization. This often means centralized platforms with all the infrastructure needed to train and deploy models at scale (e.g., Azure ML, AWS SageMaker, Google Vertex AI, and Databricks Mosaic AI).
 
-> But this doesn't stop other companies from building their own custom platforms. In fact, as ML maturity evolves, the natural path for organizations is to build their own custom platform.
+> But this doesn't stop other companies from building their own custom platforms. In fact, as ML maturity evolves, this is a natural path for organizations.
 
 ## **What is MLOps, really?**
 
