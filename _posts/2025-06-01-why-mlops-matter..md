@@ -42,7 +42,7 @@ So, one could think MLOps as the process of automating Machine LEarning using De
 When we talk about MLOps, we're not focusing only on the software engineering aspect, but also data and modelling itself. It's like adding the training and deployment of a model into the traditional DevOps. With it's own particularities of course. As monitoring for when things break. In this case, data drift, A/B TEsting, Online Metrics, and many more.
 
 <p>
-  <img src="/assets/images/2025-06-01-why-mlops-matter/ml_lifecycle.png" width="300px" alt="MLOps Lifecycle" style="display: block; margin: 0 auto;" />
+  <img src="/assets/images/2025-06-01-why-mlops-matter/mlops_lifecycle.png" width="300px" alt="MLOps Lifecycle" style="display: block; margin: 0 auto;" />
 </p>
 
 Many of these aspects forms of what we call, the Machine Learning/MLOps Lifecycle. Just like in DevOps, but the focus here os getting machine learning models into production following the best practices in Software Engineering and DevOps. The benefits are speed in releasing reliable and secure software that scale. In this case, Machine Learning solutions. This makes a lot of sense if you start to look at MAchine Learning as a software system that always contains a component called model.
