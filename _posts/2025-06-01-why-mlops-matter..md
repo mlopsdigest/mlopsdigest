@@ -40,4 +40,4 @@ When we talk about MLOps, we're not focusing only on the software engineering as
 
 Many of these aspects forms of what we call, the Machine Learning Lifecycle. Just like in DevOps, but the focus here os getting machine learning models into production following the best practices in Software Engineering and DevOps. The benefits are speed in releasing realiable and secure software that scale. In this case, Machine Learning solutions. This makes a lot of sense if you start to look at MAchine Learning as a software system that always contains a componenet called model.
 
-![MLOps Lifecycle](/assets/images/2025-06-01-why-mlops-matter..png)
+![MLOps Lifecycle](/assets/images/2025-06-01-why-mlops-matter..png){:width="600px"}
