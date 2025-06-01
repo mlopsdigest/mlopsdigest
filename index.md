@@ -19,7 +19,7 @@ Browse by category below, or [subscribe](/subscribe) to get new issues straight 
 
 <!-- Gather unique categories from all posts -->
 {% assign all_categories = "" | split: "" %}
-{% for post in collections.posts %}
+{% for post in site.posts %}
   {% for category in post.categories %}
     {% unless all_categories contains category %}
       {% assign all_categories = all_categories | push: category %}
@@ -31,7 +31,7 @@ Browse by category below, or [subscribe](/subscribe) to get new issues straight 
 {% for category in all_categories %}
   <h2>{{ category }}</h2>
   <ul>
-    {% for post in collections.posts %}
+    {% for post in site.posts %}
       {% if post.categories contains category %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
