@@ -1,7 +1,9 @@
 import os
 from datetime import datetime
 
-def create_draft(title):
+def create_draft(title) -> None:
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    only_date = datetime.now().strftime("%Y-%m-%d")
     safe_title = (
         title.lower()
         .replace(" ", "-")
@@ -9,12 +11,11 @@ def create_draft(title):
         .replace("/", "-")
         .replace("\\", "-")
     )
-    filename = f"{safe_title}.md"
+    filename = f"{only_date}-{safe_title}.md"
     drafts_dir = "_drafts"
     os.makedirs(drafts_dir, exist_ok=True)
     filepath = os.path.join(drafts_dir, filename)
 
-    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     content = f"""---
 title: "{title}"
 date: {now}
