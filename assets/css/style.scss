@@ -1,0 +1,28 @@
+---
+---
+
+@import "minima";
+
+/* Custom styles */
+.site-title {
+  display: flex;
+  align-items: center;
+}
+
+.site-title img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Center images in posts */
+.post-content img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* Custom centering class */
+.center-image {
+  display: block;
+  margin: 0 auto;
+}
