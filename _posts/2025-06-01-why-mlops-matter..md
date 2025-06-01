@@ -1,7 +1,7 @@
 ---
 title: "Why MLOPS Matter."
 date: 2025-06-01 15:05:13
-categories: [MLOps, Industry]
+categories: [MLOps]
 tags: [mlops, machine_learning]
 ---
 
