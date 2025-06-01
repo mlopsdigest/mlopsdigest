@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p>
-  <img src="/assets/banner/bannerv2.png" width="600px" alt="MLOps Lifecycle" style="display: block; margin: 0 auto;" />
+  <img src="/assets/banner/bannerv3.png" width="600px" alt="MLOps Lifecycle" style="display: block; margin: 0 auto;" />
 </p>
 
 # Welcome to MLOps Digest 🧠
